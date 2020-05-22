@@ -206,6 +206,8 @@ margin: 0px;
 	height: 100%;
 	width: 100%;
 	border-radius: 50%;
+	border: 3px solid #79a3e3a6;
+    box-shadow: 0 0 8px 2px white;
 }
 
 #about p{
