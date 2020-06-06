@@ -328,7 +328,7 @@ margin: 0px;
 
 #contact{
 	background: linear-gradient(to top right,#403066,#2857a4);
-	height: 800px;
+	/* height: 800px; */
 }
 
 .contact-heading{
