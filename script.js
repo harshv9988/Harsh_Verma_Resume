@@ -19,3 +19,45 @@
 //         },20);
 //     });
 // }
+
+var progress = document.querySelectorAll('.skills-progress > div');
+var skillContainer = document.getElementById('skills');
+window.addEventListener('scroll',checkScroll);
+var animation = false;
+
+function initialiseBars() {
+        for(let bar of progress){
+            bar.style.width = 0 + "%";
+        }
+    }
+
+initialiseBars();
+
+function fillBars(bar){
+        for(let bar of progress){
+            let targetWidth = bar.getAttribute('data-value');
+            let currentWidth = 0;
+            let interval = setInterval(function(){
+            if(currentWidth > targetWidth){
+                clearInterval(interval);
+                return;
+            }
+            currentWidth++;
+            bar.style.width = currentWidth + "%";
+        },10);
+        }
+    }
+
+function checkScroll(){
+   
+   let coordinates = skillContainer.getBoundingClientRect();
+   if(!animation && coordinates.top < window.innerHeight){
+       animation = true;
+       console.log('visible')
+       fillBars();
+   }
+   else if(coordinates.top > window.innerHeight){
+       animation = false;
+       initialiseBars();
+   }
+}
