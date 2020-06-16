@@ -313,6 +313,11 @@ margin: 0px;
     overflow: hidden;
     transition: all 0.5s ease-out;
 }
+.profile-details p{
+	font-family: monospace;
+    font-size: medium;
+}
+
 .project:hover {
     box-shadow: 0 0 20px #74ADC8;
 }
@@ -330,6 +335,10 @@ margin: 0px;
 
 }
 
+.project-info a{
+	text-decoration: none;
+	color: white;
+}
 /*----------------------------------Contact--------------------------------------*/
 
 #contact{
