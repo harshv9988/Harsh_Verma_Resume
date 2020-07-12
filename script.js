@@ -60,10 +60,10 @@ window.addEventListener('scroll', listener);
 
 function myFunction() {
     var x = document.getElementById("myLinks");
-    if (x.style.display === "block") {
-      x.style.display = "none";
+    if (x.style.width === "45%") {
+      x.style.width = "0%";
     } else {
-      x.style.display = "block";
+      x.style.width = "45%";
     }
   }
 

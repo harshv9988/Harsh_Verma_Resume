@@ -99,14 +99,16 @@ text-align: center;
   
   /* Hide the links inside the navigation menu (except for logo/home) */
   .topnav #myLinks {
-	display: none;
+	width: 0%;
 	position: fixed;
 	top: 50px;
 	left: 0px;
 	/* decreasing the width */
-	width: 45%;
-	background-color: #333;
+	background-color: rgba(48, 48, 48, 0.945);
 	z-index: 5;
+	overflow: hidden;
+	transition:all 0.5s ease-in-out ;
+	transition: all 0.4s ease-in-out;
   }
 
   .icon{
