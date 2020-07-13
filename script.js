@@ -67,6 +67,20 @@ function myFunction() {
     }
   }
 
+  var myNav = document.querySelector('.nav');
+  window.onscroll = function () { 
+      "use strict";
+      if (document.body.scrollTop >= 200 || document.documentElement.scrollTop >= 200 ) {
+          myNav.classList.add("nav-colored");
+          myNav.classList.remove("nav-transparent");
+      } 
+      else {
+          myNav.classList.add("nav-transparent");
+          myNav.classList.remove("nav-colored");
+      }
+  };
+
+  
 
 // var navMenu = document.querySelectorAll('.nav a');
 
@@ -89,6 +103,55 @@ function myFunction() {
 //         },20);
 //     });
 // }
+
+//-----------------------------------------------teacher single scroll-------------------------------------------------------------------------------
+
+
+// var progress = document.querySelectorAll('.skills-progress > div');
+// var skillContainer = document.getElementById('skills');
+// window.addEventListener('scroll',checkScroll);
+// var animation = false;
+
+// function initialiseBars() {
+//         for(let bar of progress){
+//             bar.style.width = 0 + "%";
+//         }
+//     }
+
+// initialiseBars();
+
+// function fillBars(bar){
+//         for(let bar of progress){
+//             let targetWidth = bar.getAttribute('data-value');
+//             let currentWidth = 0;
+//             let interval = setInterval(function(){
+//             if(currentWidth > targetWidth){
+//                 clearInterval(interval);
+//                 return;
+//             }
+//             currentWidth++;
+//             bar.style.width = currentWidth + "%";
+//         },10);
+//         }
+//     }
+
+// function checkScroll(){
+
+//    let coordinates = skillContainer.getBoundingClientRect();
+//    if(!animation && coordinates.top < window.innerHeight){
+//        animation = true;
+//        console.log('visible')
+//        fillBars();
+//    }
+//    else if(coordinates.top > window.innerHeight){
+//        animation = false;
+//        initialiseBars();
+//    }
+// }
+
+
+
+//-----------------------------------------my idea------------------------------------------------------------------------------------------------
 
 // var progress = document.querySelectorAll('.skills-progress > div');
 // window.addEventListener('scroll',checkScroll);
