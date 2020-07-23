@@ -372,7 +372,7 @@ margin: 0px;
     background-color: #80808078;
     color: white;
     text-align: center;
-    padding: 10px;
+    padding-top: 32px;
     font-size: larger;
     height: 100%;
     width: 100%;
@@ -510,10 +510,10 @@ margin: 0px;
 }
 
 .timeline-box:nth-child(2n)::after{
-	left: -9.5%;
+	left: -10.2%;
 }
 .timeline-box:nth-child(2n+1)::after{
-	right: -14%;
+	right: -13.9%;
 }
 
 .timeline-box:nth-child(2n){
@@ -525,7 +525,7 @@ margin: 0px;
 	height: 75%;
 	width: 0;
 	border:3px dashed lightblue;
-	top: 10%;
+	top: 8%;
 	left: 50%;
 }
 
