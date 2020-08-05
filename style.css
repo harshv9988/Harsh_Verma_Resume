@@ -376,7 +376,7 @@ margin: 0px;
     font-size: larger;
     height: 100%;
     width: 100%;
-    top: -10px;
+    top: -10px; /*-- change-- */
     left: 0;
 
 }
