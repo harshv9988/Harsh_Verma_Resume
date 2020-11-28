@@ -6,10 +6,6 @@ body {
   font-family: sans-serif;
 }
 
-::placeholder {
-  color: white;
-}
-
 input,
 textarea {
   border: none;
@@ -20,6 +16,35 @@ textarea,
 input:focus {
   /* Removing outlines from all input tags*/
   outline: none;
+}
+label {
+  transition: 0.2s;
+  color: white;
+}
+
+form > div {
+  position: relative;
+}
+
+form > div > label {
+  position: absolute;
+  left: 30px;
+  top: 0px;
+}
+input:focus + label,
+input:valid + label {
+  top: -20px;
+  color: #74adc8;
+}
+
+textarea:focus + label,
+textarea:valid + label {
+  top: -20px;
+  color: #74adc8;
+}
+
+.input-div {
+  margin-top: 30px;
 }
 
 #body-header {
@@ -61,7 +86,7 @@ section:nth-child(2n) {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 100%;
+  width: 80%;
   justify-content: space-around;
 }
 
@@ -393,6 +418,14 @@ section:nth-child(2n) {
   margin-right: 0.5rem;
 }
 
+.contact-display {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-around;
+}
+
 .form {
   width: 42%;
   margin: 20px;
@@ -619,10 +652,14 @@ p {
   .topnav {
     display: block;
   }
+
   .horizontal-list {
     display: none;
   }
-
+  #about p {
+    margin: 6% 12%;
+    text-align: justify;
+  }
   .form {
     width: 70%;
   }

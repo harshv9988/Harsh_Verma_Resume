@@ -1,456 +1,535 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>
-        Harsh Verma
-    </title>
-    <meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <script src="https://kit.fontawesome.com/749416ed71.js" crossorigin="anonymous"></script>
-</head>
-<body>
-
+  <head>
+    <title>Harsh Verma</title>
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1, minimum-scale=1"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/749416ed71.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
     <header id="body-header">
+      <nav class="nav">
+        <div class="topnav">
+          <div class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </div>
+          <!-- Navigation links (hidden by default) -->
+          <div id="myLinks">
+            <a href="#">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#experience">Experience</a>
+            <a href="#education">Education</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+          </div>
+        </div>
 
-    	<nav class="nav">
-       
-            <div class="topnav">
-            
-                    <div class="icon" onclick="myFunction()">
-                        <i class="fa fa-bars"></i>
-                    </div>
-                    <!-- Navigation links (hidden by default) -->
-                    <div id="myLinks">
-                    <a href="#">Home</a>
-                    <a href="#about">About</a>
-                    <a href="#skills">Skills</a>
-                    <a href="#experience">Experience</a>
-                    <a href="#education">Education</a>
-                    <a href="#projects">Projects</a>
-                    <a href="#contact">Contact</a>
-                    </div>
-                
-            </div>
+        <div id="flat-list">
+          <ul class="horizontal-list text-center nav-menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <!-- <section id="home"></section> -->
+      <div id="name-social-container">
+        <div id="name" class="text-center">
+          <h4>Harsh Verma</h4>
+        </div>
 
-    		<div id="flat-list">
-                <ul class="horizontal-list text-center nav-menu">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#experience">Experience</a></li>
-                    <li><a href="#education">Education</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </div>
-    	</nav>
-        <!-- <section id="home"></section> -->
-    <div id="name-social-container">
+        <div id="social">
+          <ul class="horizontal-list-donthide text-center social-icons">
+            <li>
+              <a
+                href="https://www.linkedin.com/in/harsh-verma-1b9772170/"
+                target="_blank"
+              >
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </li>
 
-    	<div id="name" class="text-center">
+            <li>
+              <a href="https://github.com/harshv9988" target="_blank">
+                <i class="fab fa-github"></i>
+              </a>
+            </li>
 
-    		<h4>Harsh Verma</h4>
- 
-    	</div>
+            <li>
+              <a href="#">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
 
-    	<div id="social">
+            <li>
+              <a href="#">
+                <i class="fab fa-stack-overflow"></i>
+              </a>
+            </li>
 
-    		<ul class="horizontal-list-donthide text-center social-icons">
-
-                <li>
-                    <a href="https://www.linkedin.com/in/harsh-verma-1b9772170/" target="_blank">
-                        <i class="fab fa-linkedin-in"></i>
-                    </a>
-                </li>
-
-                <li>
-                    <a href="https://github.com/harshv9988" target="_blank">
-                        <i class="fab fa-github"></i>
-                    </a>
-                </li>
-
-    			<li>
-                        <a href="#">
-                            <i class="fab fa-facebook-f"></i>
-                        </a>
-                    </li>
-
-                    <li>
-                        <a href="#">
-                            <i class="fab fa-stack-overflow"></i>
-                        </a>
-                    </li>
-
-                    <li>
-                    	<a href="">
-                    		<i class="fab fa-quora"></i>
-                    	</a>
-                    </li>
-    		</ul>
-    	</div>
-    </div>
-
+            <li>
+              <a href="">
+                <i class="fab fa-quora"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </header>
     <main>
+      <section id="about">
+        <div id="profile-photo">
+          <img src="pics/profile-photo.jpg" />
+        </div>
+        <p data-aos="fade-up">
+          I am a Web Development enthusiast currently pursuing my B.Tech second
+          year in Electronics and Communication Engineering from Maharaja
+          Agrasen Institute of Technology. I have keen interest in programming
+          and development field. I aspire to be a good software developer and I
+          am proficient in many latest programming languages too. My skill set
+          majorly includes C , OOPS, HTML, CSS, Bootstrap etc.
+        </p>
+      </section>
 
-        <section id="about">
-		<div id="profile-photo">
-			<img src="pics/profile-photo.jpg">
-		</div>
-		<p data-aos="fade-up">
-			I am a Web Development enthusiast currently pursuing my B.Tech second year in Electronics and Communication Engineering from Maharaja Agrasen Institute of Technology. I have keen interest in programming and development field.
-            I aspire to be a good software developer and I am proficient in many latest programming languages too.
-            My skill set majorly includes C  , OOPS, HTML, CSS, Bootstrap etc. 
-		</p>
+      <section id="skills">
+        <h1 class="section-heading">
+          <span id="skill-icon"><i class="fas fa-fire-alt"></i></span>
+          <span>SKILLS</span>
+        </h1>
 
-        </section>
-
-        <section id="skills">
-            <h1 class="section-heading">
-                <span id="skill-icon"><i class="fas fa-fire-alt"></i></span>
-                <span>SKILLS</span>
-            </h1>
-
-            <div class="common-display" id="skill-container">
-                <div class="skills-progress">
-                    <div class="seventy-five skill-border blue" data-value="75">
-                        <div class="skill-name">
-                            <span>C++</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="skills-progress">
-                    <div class="eighty skill-border black" data-value="80">
-                        <div class="skill-name">
-                            <span>HTML</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="skills-progress">
-                    <div class="seventy-five skill-border red" data-value="75">
-                        <div class="skill-name">
-                            <span>CSS</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="skills-progress">
-                    <div class="seventy-five skill-border green" data-value="75">
-                        <div class="skill-name">
-                            <span>JAVASCRIPT</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="skills-progress">
-                    <div class="forty-five skill-border yellow" data-value="45">
-                        <div class="skill-name">
-                            <span>PYTHON</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="skills-progress">
-                    <div class="seventy-five skill-border orange" data-value="75">
-                        <div class="skill-name">
-                            <span>Node.js</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="skills-progress">
-                    <div class="seventy-five skill-border magenta" data-value="75">
-                        <div class="skill-name">
-                            <span>MongoDb</span>
-                        </div>
-                    </div>
-                </div>
-
+        <div class="common-display" id="skill-container">
+          <div class="skills-progress">
+            <div class="seventy-five skill-border blue" data-value="75">
+              <div class="skill-name">
+                <span>C++</span>
+              </div>
             </div>
+          </div>
 
-        </section>
-
-        <section id="experience">
-
-             <h1 class="section-heading">
-                <span id="skill-icon"><i class="fas fa-user-secret"></i></span>
-                <span>EXPERIENCE</span>
-            </h1>
-
-            <div class="timeline">
-                <div class="timeline-box">
-                    <div class="timeline-container">
-                        <div class="timeline-logo">
-                            <img src="pics/ieee.png">
-                        </div>
-                        <h3 class="right-align work-designation">Technical Coordinator </h3>
-                        <h4 class="right-align work-name"> IEEE MAIT </h4>
-                        <h5 class="right-align work-time"> May 2020 - Present </h5>
-
-                        <p class="justify-align work-description"> 
-                            I became member of IEEE in 2018 then working for them for 2 yeras then i have promoted to Technical Coordinator. The responsibilty
-                            of the technical coordinator is to organise different Technical activites throughout the semester it involves planning ,teamwork and
-                            management to organise these type of events. 
-                        </p>
-                    </div>
-                </div>
-                <div class="timeline-box">
-                    <div class="timeline-container">
-                        <div class="timeline-logo">
-                            <img src="pics/ninja_newlogo.png">
-                        </div>
-                        <h3 class="right-align work-designation">Trainee(Front End Web Development)</h3>
-                        <h4 class="right-align work-name">Coding Ninjas</h4>
-                        <h5 class="right-align work-time"> May 2020 - July 2020 </h5>
-
-                        <p class="justify-align work-description">
-                            Completed Front End Web Development and learnt Technologies Like Javascript , Html , Css Ajax Bootsrap.
-                            Applied These concepts by making projects like Music Player site , calculator , Ping Pong Game and many more.
-                            I have provided the link of these projects in the portfolio section.
-                        </p>
-                    </div>
-                </div>
-                <div class="timeline-box">
-                    <div class="timeline-container">
-                        <div class="timeline-logo">
-                            <img src="pics/ninja_newlogo.png">
-                        </div>
-                        <h3 class="right-align work-designation">Trainee(C++ Data Structures)</h3>
-                        <h4 class="right-align work-name">Coding Ninjas</h4>
-                        <h5 class="right-align work-time"> January 2020 - May 2020 </h5>
-
-                        <p class="justify-align work-description">
-                            Completed Data structures and Algorithms training from coding Ninjas also Learnt a lot about usage of various data 
-                            structures and solved around 350+ problems on the codezen.
-                        </p>
-                    </div>
-                </div>
-                <div class="timeline-box">
-                    <div class="timeline-container">
-                        <div class="timeline-logo">
-                            <img src="pics/aptron-main.jpg">
-                        </div>
-                        <h3 class="right-align work-designation">Trainee(IOT) </h3>
-                        <h4 class="right-align work-name"> Aptron Solutions Pvt Limited </h4>
-                        <h5 class="right-align work-time"> May 2019 - July 2019 </h5>
-
-                        <p class="justify-align work-description"> 
-                            Completed Internet of things Training and did learnt some new things . For the application part
-                            I made an project named as IOT based smart bin which connects to internet and tells the user when it is
-                            partially and completely filled using an Email. Also added automatic Lid opening Mechanism when some 
-                            person stands in front of it.    
-                        </p>
-                    </div>
-                </div>
-                <div class="timeline-divider">
-                    <div class="timeline-traveller">
-                        <i class="fas fa-rocket"></i>
-                    </div>
-                </div>
+          <div class="skills-progress">
+            <div class="eighty skill-border black" data-value="80">
+              <div class="skill-name">
+                <span>HTML</span>
+              </div>
             </div>
+          </div>
 
-        </section>
-
-        <section id="education">
-            <h1 class="section-heading">
-                <span id="skill-icon"><i class="fas fa-graduation-cap"></i></span>
-                <span>EDUCATION</span>
-            </h1>
-
-            <div class="timeline">
-                <div class="timeline-box">
-                     <div class="timeline-container">
-                        <div class="timeline-logo">
-                            <img src="pics/mait.png">
-                        </div>
-                        <h3 class="right-align work-designation">Maharaja Agrasen Institute of Technology,Delhi</h3>
-                        <h4 class="right-align work-name">Btech(ECE)</h4>
-                        <h5 class="right-align work-time">August 2018 - August 2022 </h5>
-
-                        <p class="justify-align work-description"> 
-                            I am currently pursuing my underGraduation from Maharaja Agrasen Institute of Technology in Electronics
-                            and Communication Engineering My average current CGPA is 8.7.    
-                        </p>
-                    </div>
-                </div>
-                <div class="timeline-box">
-                     <div class="timeline-container">
-                        <div class="cbse-logo">
-                            <img src="pics/cbse-final.jpg">
-                        </div>
-                        <h3 class="right-align work-designation">CBSE</h3>
-                        <h4 class="right-align work-name">Class XII</h4>
-                        <h5 class="right-align work-time">2016 - 2018</h5>
-
-                        <p class="justify-align work-description"> 
-                            I completed my class 12 from CBSE board in 2018 from Dav Public School Faridabad I secured 91% marks in Non medical Stream.
-                        </p>
-                    </div>
-                </div>
-                <div class="timeline-box">
-                    <div class="timeline-container">
-                        <div class="cbse-logo">
-                            <img src="pics/cbse-final.jpg">
-                        </div>
-                        <h3 class="right-align work-designation">CBSE</h3>
-                        <h4 class="right-align work-name">Class X</h4>
-                        <h5 class="right-align work-time">2014 - 2016</h5>
-
-                        <p class="justify-align work-description"> 
-                            I completed My class 10 in 2016 from CBSE board and secured 10 Cgpa .
-                        </p>
-                    </div>
-                </div>
-                <div class="timeline-divider">
-                    <div class="timeline-traveller-education">
-                        <i class="fas fa-meteor"></i>
-                    </div>
-                </div>
+          <div class="skills-progress">
+            <div class="seventy-five skill-border red" data-value="75">
+              <div class="skill-name">
+                <span>CSS</span>
+              </div>
             </div>
+          </div>
 
-        </section>
-
-        <section id="projects">
-
-            <h1 class="section-heading">
-                <span id="skill-icon"><i class="fas fa-portrait"></i></span>
-                <span>PROJECTS</span>
-            </h1>
-
-            <div class="common-display">
-
-                <div class="project" data-aos="flip-right">
-                    <img src="pics/todolist.png">
-                    <div class="profile-details">
-                        <p> Built an Daily Task App using Node.js, Express.js, MongoDb.</p>
-                        <p class="project-info"><a href="https://todo-list-proj.herokuapp.com/" target="_blank">Project Link</a></p>
-                        <p class="project-info"><a href="https://github.com/harshv9988/Todo-List" target="_blank">Github Repository Link</a></p>
-                    </div>
-                </div>
-
-                <div class="project" data-aos="flip-right">
-                    <img src="pics/pingpong.png">
-                    <div class="profile-details">
-                        <p>Created Multiplayer Ping Pong Game using Javascript Css and Html.</p>
-                        <p class="project-info"><a href="https://harshv9988.github.io/Ping-Pong-Game/" target="_blank">Project Link</a></p>
-                        <p class="project-info"><a href="https://github.com/harshv9988/Ping-Pong-Game" target="_blank">Github Repository Link</a></p>
-                    </div>
-                </div>
-
-                <div class="project" data-aos="flip-right">
-                    <img src="pics/musicplayer.png">
-                    <div class="profile-details">
-                        <p>Created front end design of Music player named as Social Studio</p>
-                        <p class="project-info"><a href="https://harshv9988.github.io/Music-Player-Project/" target="_blank">Project Link</a></p>
-                        <p class="project-info"><a href="https://github.com/harshv9988/Music-Player-Project" target="_blank">Github Repository Link</a></p>
-                    </div>
-                </div>
-
-
-                <div class="project" data-aos="flip-right">
-                    <img src="pics/calculator.png">
-                    <div class="profile-details">
-                        <p>Created a UI based calculator from scratch using javascript , Html and Css</p>
-                        <p class="project-info"><a href="https://harshv9988.github.io/Calculator-project/" target="_blank">Project Link</a></p>
-                        <p class="project-info"><a href="https://github.com/harshv9988/Calculator-project" target="_blank">Github Repository Link</a></p>
-                    </div>
-                </div>
-    
+          <div class="skills-progress">
+            <div class="seventy-five skill-border green" data-value="75">
+              <div class="skill-name">
+                <span>JAVASCRIPT</span>
+              </div>
             </div>
+          </div>
 
-        </section>
-
-        <section id="contact">
-
-            <h1 class="contact-heading">
-                <span id="skill-icon"><i class="fas fa-id-card"></i></span>
-                <span>CONTACT</span>
-            </h1>
-
-            <div class="common-display">
-                <div class="form">
-                    <form>
-                        <input type="text" name="name" id="person-name" placeholder="Name">
-                        <input type="email" name="email" id="person-email" placeholder="Email-id">
-                        <textarea name= "message" id="person-message" placeholder="Message" rows="2" cols="18"></textarea>
-                        <button type="submit" id="button">Send Message</button>
-                    </form>
-                </div>
-                <div class="form">
-                    <div id="get-in-touch">
-                        <h1>Get in touch</h1>
-                        <p>
-                            I am presently looking for internships in web development field any opprtunity given in this field will be highly appreciated.
-                        </p>
-                    </div>
-                    <div id="my-address">
-                        <h1>My Address</h1>
-                        <div class="small-icons">
-                            <span><i class="fas fa-map-marker-alt"></i></span>
-                            <span>Delhi,India</span>
-                        </div>
-                        <div class="small-icons">
-                            <span><i class="fas fa-mobile-alt"></i></span>
-                            <span>9560926075</span>
-                        </div>
-                        <div class="small-icons">
-                            <span><i class="far fa-envelope"></i></span>
-                            <span>harshv9988@gmail.com</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="form">
-                    <ul class="horizontal-list text-center social-icons">
-                        <li>
-                            <a href="https://www.linkedin.com/in/harsh-verma-1b9772170/" target="_blank">
-                                <i class="fab fa-linkedin-in"></i>
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="https://github.com/harshv9988" target="_blank">
-                                <i class="fab fa-github"></i>
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#">
-                                <i class="fab fa-facebook-f"></i>
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="#">
-                                <i class="fab fa-stack-overflow"></i>
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="">
-                                <i class="fab fa-quora"></i>
-                            </a>
-                        </li>
-                </ul>
-                    </div>
+          <div class="skills-progress">
+            <div class="forty-five skill-border yellow" data-value="45">
+              <div class="skill-name">
+                <span>PYTHON</span>
+              </div>
             </div>
+          </div>
 
-        </section>
+          <div class="skills-progress">
+            <div class="seventy-five skill-border orange" data-value="75">
+              <div class="skill-name">
+                <span>Node.js</span>
+              </div>
+            </div>
+          </div>
 
+          <div class="skills-progress">
+            <div class="seventy-five skill-border magenta" data-value="75">
+              <div class="skill-name">
+                <span>MongoDb</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience">
+        <h1 class="section-heading">
+          <span id="skill-icon"><i class="fas fa-user-secret"></i></span>
+          <span>EXPERIENCE</span>
+        </h1>
+
+        <div class="timeline">
+          <div class="timeline-box">
+            <div class="timeline-container">
+              <div class="timeline-logo">
+                <img src="pics/ieee.png" />
+              </div>
+              <h3 class="right-align work-designation">
+                Technical Coordinator
+              </h3>
+              <h4 class="right-align work-name">IEEE MAIT</h4>
+              <h5 class="right-align work-time">May 2020 - Present</h5>
+
+              <p class="justify-align work-description">
+                I became member of IEEE in 2018 then working for them for 2
+                yeras then i have promoted to Technical Coordinator. The
+                responsibilty of the technical coordinator is to organise
+                different Technical activites throughout the semester it
+                involves planning ,teamwork and management to organise these
+                type of events.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-box">
+            <div class="timeline-container">
+              <div class="timeline-logo">
+                <img src="pics/ninja_newlogo.png" />
+              </div>
+              <h3 class="right-align work-designation">
+                Trainee(Front End Web Development)
+              </h3>
+              <h4 class="right-align work-name">Coding Ninjas</h4>
+              <h5 class="right-align work-time">May 2020 - July 2020</h5>
+
+              <p class="justify-align work-description">
+                Completed Front End Web Development and learnt Technologies Like
+                Javascript , Html , Css Ajax Bootsrap. Applied These concepts by
+                making projects like Music Player site , calculator , Ping Pong
+                Game and many more. I have provided the link of these projects
+                in the portfolio section.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-box">
+            <div class="timeline-container">
+              <div class="timeline-logo">
+                <img src="pics/ninja_newlogo.png" />
+              </div>
+              <h3 class="right-align work-designation">
+                Trainee(C++ Data Structures)
+              </h3>
+              <h4 class="right-align work-name">Coding Ninjas</h4>
+              <h5 class="right-align work-time">January 2020 - May 2020</h5>
+
+              <p class="justify-align work-description">
+                Completed Data structures and Algorithms training from coding
+                Ninjas also Learnt a lot about usage of various data structures
+                and solved around 350+ problems on the codezen.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-box">
+            <div class="timeline-container">
+              <div class="timeline-logo">
+                <img src="pics/aptron-main.jpg" />
+              </div>
+              <h3 class="right-align work-designation">Trainee(IOT)</h3>
+              <h4 class="right-align work-name">
+                Aptron Solutions Pvt Limited
+              </h4>
+              <h5 class="right-align work-time">May 2019 - July 2019</h5>
+
+              <p class="justify-align work-description">
+                Completed Internet of things Training and did learnt some new
+                things . For the application part I made an project named as IOT
+                based smart bin which connects to internet and tells the user
+                when it is partially and completely filled using an Email. Also
+                added automatic Lid opening Mechanism when some person stands in
+                front of it.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-divider">
+            <div class="timeline-traveller">
+              <i class="fas fa-rocket"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="education">
+        <h1 class="section-heading">
+          <span id="skill-icon"><i class="fas fa-graduation-cap"></i></span>
+          <span>EDUCATION</span>
+        </h1>
+
+        <div class="timeline">
+          <div class="timeline-box">
+            <div class="timeline-container">
+              <div class="timeline-logo">
+                <img src="pics/mait.png" />
+              </div>
+              <h3 class="right-align work-designation">
+                Maharaja Agrasen Institute of Technology,Delhi
+              </h3>
+              <h4 class="right-align work-name">Btech(ECE)</h4>
+              <h5 class="right-align work-time">August 2018 - August 2022</h5>
+
+              <p class="justify-align work-description">
+                I am currently pursuing my underGraduation from Maharaja Agrasen
+                Institute of Technology in Electronics and Communication
+                Engineering My average current CGPA is 8.7.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-box">
+            <div class="timeline-container">
+              <div class="cbse-logo">
+                <img src="pics/cbse-final.jpg" />
+              </div>
+              <h3 class="right-align work-designation">CBSE</h3>
+              <h4 class="right-align work-name">Class XII</h4>
+              <h5 class="right-align work-time">2016 - 2018</h5>
+
+              <p class="justify-align work-description">
+                I completed my class 12 from CBSE board in 2018 from Dav Public
+                School Faridabad I secured 91% marks in Non medical Stream.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-box">
+            <div class="timeline-container">
+              <div class="cbse-logo">
+                <img src="pics/cbse-final.jpg" />
+              </div>
+              <h3 class="right-align work-designation">CBSE</h3>
+              <h4 class="right-align work-name">Class X</h4>
+              <h5 class="right-align work-time">2014 - 2016</h5>
+
+              <p class="justify-align work-description">
+                I completed My class 10 in 2016 from CBSE board and secured 10
+                Cgpa .
+              </p>
+            </div>
+          </div>
+          <div class="timeline-divider">
+            <div class="timeline-traveller-education">
+              <i class="fas fa-meteor"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects">
+        <h1 class="section-heading">
+          <span id="skill-icon"><i class="fas fa-portrait"></i></span>
+          <span>PROJECTS</span>
+        </h1>
+
+        <div class="common-display">
+          <div class="project" data-aos="flip-right">
+            <img src="pics/todolist.png" />
+            <div class="profile-details">
+              <p>Built an Daily Task App using Node.js, Express.js, MongoDb.</p>
+              <p class="project-info">
+                <a href="https://todo-list-proj.herokuapp.com/" target="_blank"
+                  >Project Link</a
+                >
+              </p>
+              <p class="project-info">
+                <a
+                  href="https://github.com/harshv9988/Todo-List"
+                  target="_blank"
+                  >Github Repository Link</a
+                >
+              </p>
+            </div>
+          </div>
+
+          <div class="project" data-aos="flip-right">
+            <img src="pics/pingpong.png" />
+            <div class="profile-details">
+              <p>
+                Created Multiplayer Ping Pong Game using Javascript Css and
+                Html.
+              </p>
+              <p class="project-info">
+                <a
+                  href="https://harshv9988.github.io/Ping-Pong-Game/"
+                  target="_blank"
+                  >Project Link</a
+                >
+              </p>
+              <p class="project-info">
+                <a
+                  href="https://github.com/harshv9988/Ping-Pong-Game"
+                  target="_blank"
+                  >Github Repository Link</a
+                >
+              </p>
+            </div>
+          </div>
+
+          <div class="project" data-aos="flip-right">
+            <img src="pics/musicplayer.png" />
+            <div class="profile-details">
+              <p>
+                Created front end design of Music player named as Social Studio
+              </p>
+              <p class="project-info">
+                <a
+                  href="https://harshv9988.github.io/Music-Player-Project/"
+                  target="_blank"
+                  >Project Link</a
+                >
+              </p>
+              <p class="project-info">
+                <a
+                  href="https://github.com/harshv9988/Music-Player-Project"
+                  target="_blank"
+                  >Github Repository Link</a
+                >
+              </p>
+            </div>
+          </div>
+
+          <div class="project" data-aos="flip-right">
+            <img src="pics/calculator.png" />
+            <div class="profile-details">
+              <p>
+                Created a UI based calculator from scratch using javascript ,
+                Html and Css
+              </p>
+              <p class="project-info">
+                <a
+                  href="https://harshv9988.github.io/Calculator-project/"
+                  target="_blank"
+                  >Project Link</a
+                >
+              </p>
+              <p class="project-info">
+                <a
+                  href="https://github.com/harshv9988/Calculator-project"
+                  target="_blank"
+                  >Github Repository Link</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <h1 class="contact-heading">
+          <span id="skill-icon"><i class="fas fa-id-card"></i></span>
+          <span>CONTACT</span>
+        </h1>
+
+        <div class="contact-display">
+          <div class="form">
+            <form>
+              <div class="input-div">
+                <input type="text" name="name" id="person-name" required />
+                <label for="person-name">Name</label>
+              </div>
+              <div class="input-div">
+                <input type="email" name="email" id="person-email" required />
+                <label for="person-name">Name</label>
+              </div>
+              <div class="input-div">
+                <textarea
+                  name="message"
+                  id="person-message"
+                  rows="2"
+                  cols="18"
+                  required
+                ></textarea>
+                <label for="person-name">Name</label>
+              </div>
+
+              <button type="submit" id="button">Send Message</button>
+            </form>
+          </div>
+          <div class="form">
+            <div id="get-in-touch">
+              <h1>Get in touch</h1>
+              <p>
+                I am presently looking for internships in web development field
+                any opprtunity given in this field will be highly appreciated.
+              </p>
+            </div>
+            <div id="my-address">
+              <h1>My Address</h1>
+              <div class="small-icons">
+                <span><i class="fas fa-map-marker-alt"></i></span>
+                <span>Delhi,India</span>
+              </div>
+              <div class="small-icons">
+                <span><i class="fas fa-mobile-alt"></i></span>
+                <span>9560926075</span>
+              </div>
+              <div class="small-icons">
+                <span><i class="far fa-envelope"></i></span>
+                <span>harshv9988@gmail.com</span>
+              </div>
+            </div>
+          </div>
+          <div class="form">
+            <ul class="horizontal-list text-center social-icons">
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/harsh-verma-1b9772170/"
+                  target="_blank"
+                >
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+
+              <li>
+                <a href="https://github.com/harshv9988" target="_blank">
+                  <i class="fab fa-github"></i>
+                </a>
+              </li>
+
+              <li>
+                <a href="#">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+
+              <li>
+                <a href="#">
+                  <i class="fab fa-stack-overflow"></i>
+                </a>
+              </li>
+
+              <li>
+                <a href="">
+                  <i class="fab fa-quora"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
     </main>
-    
-<script src="script.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
-    AOS.init({
+
+    <script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
         offset: 160, // offset (in px) from the original trigger point
         delay: 0, // values from 0 to 3000, with step 50ms
         duration: 1500,
-        once : true
-    });
-</script>
-</body>
+        once: true,
+      });
+    </script>
+  </body>
 </html>
