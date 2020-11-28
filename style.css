@@ -48,7 +48,7 @@ textarea:valid + label {
 }
 
 #body-header {
-  background-image: url(pics/background4.jpg);
+  background-image: url(pics/background5.jpg);
   height: 65vh;
   background-size: cover;
   background-position: center;
@@ -79,7 +79,13 @@ section {
 }
 
 section:nth-child(2n) {
-  background-color: #9e9b9b29;
+  background-color: #e7eaf4;
+  padding: 10px 0px;
+}
+
+section:nth-child(2n + 1) {
+  background-color: #eff0f4;
+  padding: 10px 0px;
 }
 
 .common-display {
@@ -343,6 +349,10 @@ section:nth-child(2n) {
   background-color: #a729a7;
 }
 
+.skyblue {
+  background-color: #419da9;
+}
+
 /*----------------------------------------portfolio---------------------------*/
 
 .project {
@@ -512,7 +522,6 @@ p {
   width: 40%;
   left: 5%;
   min-height: 150px;
-  border: 1px solid black;
 }
 .timeline-box::after {
   content: "";
@@ -575,6 +584,8 @@ p {
 
 .timeline-container {
   padding: 8px;
+  box-shadow: 2px 2px 3px #888888, -2px -2px 3px 1px white;
+  border-radius: 14px;
 }
 
 .timeline-logo {
@@ -637,6 +648,7 @@ p {
   .timeline-box {
     width: 80%;
     left: 12% !important;
+    padding: 10px 0px;
   }
 
   .timeline-box::after {
