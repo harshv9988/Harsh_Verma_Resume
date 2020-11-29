@@ -31,8 +31,12 @@ form > div > label {
   left: 30px;
   top: 0px;
 }
-input:focus + label,
-input:valid + label {
+.input-div input:focus + label {
+  top: -20px;
+  color: #74adc8;
+}
+
+.input-div input:valid + label {
   top: -20px;
   color: #74adc8;
 }
@@ -174,7 +178,7 @@ section:nth-child(2n + 1) {
 }
 
 .icon {
-  color: #aebabc;
+  color: #ffffff;
   background-color: transparent;
   font-size: 30px;
   position: fixed;
@@ -535,10 +539,11 @@ p {
 }
 
 .timeline-box:nth-child(2n)::after {
-  left: -10.2%;
+  left: -9.5%;
 }
 .timeline-box:nth-child(2n + 1)::after {
   right: -13.9%;
+  top: 30%;
 }
 
 .timeline-box:nth-child(2n) {
@@ -583,7 +588,7 @@ p {
 /*-------------------------data-innside-experience---------------------------------------------*/
 
 .timeline-container {
-  padding: 8px;
+  padding: 24px;
   box-shadow: 2px 2px 3px #888888, -2px -2px 3px 1px white;
   border-radius: 14px;
 }
@@ -623,6 +628,7 @@ p {
   font-size: x-large;
   color: #6d6dcc;
   padding-top: 23px;
+  word-break: break-word;
 }
 .work-name {
   margin-bottom: -19px;
@@ -698,5 +704,15 @@ p {
   .timeline-box::after {
     left: -10% !important;
     top: 33%;
+  }
+
+  .timeline {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .timeline-box::after {
+    left: -9% !important;
   }
 }
