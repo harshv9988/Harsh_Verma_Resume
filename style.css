@@ -360,16 +360,19 @@ section:nth-child(2n + 1) {
 /*----------------------------------------portfolio---------------------------*/
 
 .project {
-  max-width: 300px;
+  width: 360px;
+  height: 210px;
   overflow: hidden;
   margin: 10px;
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
+  margin: 35px;
 }
 
 .project img {
-  height: 165px;
+  /* height: 165px; */
+  height: 100%;
   width: 100%;
 }
 
@@ -392,15 +395,19 @@ section:nth-child(2n + 1) {
 }
 
 .project:hover .profile-details {
-  background-color: #80808078;
+  background-color: #0c0b0b78;
   color: white;
   text-align: center;
   padding-top: 32px;
   font-size: larger;
   height: 100%;
   width: 100%;
-  top: -10px; /*-- change-- */
+  top: -10px;
   left: 0;
+}
+
+.project:hover .blurred {
+  filter: blur(3px);
 }
 
 /* #length-increase{
