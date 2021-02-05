@@ -559,10 +559,19 @@ p {
 
 .timeline-divider {
   position: absolute;
-  height: 75%;
+  height: 65%;
   width: 0;
   border: 3px dashed lightblue;
-  top: 8%;
+  top: 10%;
+  left: 50%;
+}
+
+.timeline-divider-2 {
+  position: absolute;
+  height: 67%;
+  width: 0;
+  border: 3px dashed lightblue;
+  top: 14%;
   left: 50%;
 }
 
@@ -651,10 +660,22 @@ p {
   #about {
     height: auto;
   }
+
+  .timeline-box:nth-child(2n)::after {
+    left: -10.1%;
+  }
+
+  .timeline-box:nth-child(2n + 1)::after {
+    right: -14.3%;
+  }
 }
 
 @media screen and (max-width: 600px) {
   .timeline-divider {
+    left: 8%;
+  }
+
+  .timeline-divider-2 {
     left: 8%;
   }
 
