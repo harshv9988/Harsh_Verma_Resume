@@ -115,6 +115,34 @@ section:nth-child(2n + 1) {
 
 #flat-list {
   margin: auto;
+  position: relative;
+}
+
+.padding-t {
+  padding-top: 3px;
+}
+
+#resume-button {
+  position: absolute;
+  top: -5px;
+  right: 2%;
+}
+
+.btn-resume {
+  /* padding: 14px 28px; */
+  font-size: 16px;
+  cursor: pointer;
+  padding: 7px 12px;
+  border-radius: 22px;
+  background: transparent;
+
+  color: white;
+  border: 2px solid white;
+}
+
+.btn-resume:hover {
+  background: white;
+  color: black;
 }
 
 .nav-colored {
@@ -667,6 +695,12 @@ p {
 
   .timeline-box:nth-child(2n + 1)::after {
     right: -14.3%;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .btn {
+    font-size: 14px;
   }
 }
 
